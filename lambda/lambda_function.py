@@ -1,7 +1,7 @@
 import json
 
-def lambda_handler(event, contect):
+def lambda_handler(event, context):
     return {
         'statusCode': 200,
-        'body': json.dumps('Hello updated lambda from vscode')
+        'body': json.dumps('Hello updated lambda from vscode no 2')
     }
